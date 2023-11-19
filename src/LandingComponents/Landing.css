@@ -388,5 +388,9 @@ body {
       height: 100px;
       padding: 1rem;
     }
+
+    .poster__container {
+      width: 20%;
+    }
   }
   
