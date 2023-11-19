@@ -382,5 +382,11 @@ body {
     .feature:nth-child(even) {
       flex-direction: row-reverse;
     }
+
+    .feature__2__poster__container {
+      max-width: 20em;
+      height: 100px;
+      padding: 1rem;
+    }
   }
   
