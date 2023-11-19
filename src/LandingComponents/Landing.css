@@ -274,7 +274,7 @@ body {
   }
 
   
-  
+
   @media (min-width: 768px) {
     .hero__bg__image__container {
       height: 100vh;
@@ -291,9 +291,22 @@ body {
     .hero__title {
       font-size: 3rem;
     }
+    
     .hero__subtitle,
     .hero__description {
       font-size: 1.3rem;
+    }
+
+    .feature {
+      padding: 4rem;
+    }
+  
+    .feature__title {
+      font-size: 35px;
+    }
+  
+    .feature__sub__title {
+      font-size: 20px;
     }
   }
 
