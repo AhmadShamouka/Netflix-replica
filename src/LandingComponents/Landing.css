@@ -352,5 +352,26 @@ body {
     .primary__button {
       height: 50px;
     }
+
+    
+    .feature {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  
+    .feature__details {
+      text-align: left;
+      padding: 0 6rem;
+    }
+  
+    .feature__title {
+      font-size: 50px;
+    }
+  
+    .feature__sub__title {
+      font-size: 25px;
+    }
   }
   
