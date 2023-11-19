@@ -55,6 +55,7 @@ body {
   padding: 0.4rem;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.4);
+  width: 70;
 }
 
 /* Signin Button Styles */

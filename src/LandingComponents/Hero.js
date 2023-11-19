@@ -20,10 +20,11 @@ const Hero = () => {
           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         />
       </Helmet>
+
     <section className="hero">
       <div className="hero__bg__image__container">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/504c814b-57c3-43af-ab7b-4def88fd3a89/LB-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg"          alt="BG hero image"
+          src="https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/504c814b-57c3-43af-ab7b-4def88fd3a89/LB-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="BG hero image"
           className="hero__bg__image"
         />
       </div>
