@@ -275,4 +275,27 @@ body {
 
   
   
+  @media (min-width: 768px) {
+    .hero__bg__image__container {
+      height: 100vh;
+    }
+  
+    .hero__bg__overlay {
+      height: 100vh;
+    }
+    .hero__card {
+      top: 40%;
+      left: 30%;
+      transform: translate(-20%, -20%);
+    }
+    .hero__title {
+      font-size: 3rem;
+    }
+    .hero__subtitle,
+    .hero__description {
+      font-size: 1.3rem;
+    }
+  }
+
+  
   
