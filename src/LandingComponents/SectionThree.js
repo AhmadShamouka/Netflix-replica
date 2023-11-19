@@ -6,10 +6,10 @@ const SectionThree = () => {
   return (
     <div className="feature">
       <div className="feature__details">
-        <h3 className="feature__title">Watch everywhere.</h3>
+        <h3 className="feature__title">Watch everywhere</h3>
         <h5 className="feature__sub__title">
-          Stream unlimited movies and TV shows on your phone, tablet,
-          laptop, and TV.
+          Stream unlimited movies and TV shows on your phone, <br/>
+           tablet, laptop, and TV.
         </h5>
       </div>
       <div className="feature__image__container feature__3__image__container">

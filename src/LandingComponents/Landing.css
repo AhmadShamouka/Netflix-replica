@@ -127,6 +127,8 @@ body {
 .email__input {
   border: none;
   background: transparent;
+  background-color: #000000;
+  opacity: 30%;
   width: 100%;
   height: 100%;
   padding-left: 7px;
@@ -135,10 +137,11 @@ body {
 .email__label {
   color: black;
   position: absolute;
-  top: 28%;
-  left: 2%;
-  color: rgb(153, 149, 149);
+  top: 31%;
+  left: 4%;
+  color: rgb(241, 241, 241);
   transition: 0.5s;
+  font-size: 11px;
 }
 
 /* Email Form Container Styles */
@@ -179,7 +182,7 @@ body {
   color: white;
   padding: 0.8rem 1.2rem;
   border-radius: 2px;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -194,7 +197,7 @@ body {
 }
 
 .feature__title {
-  font-size: 25px;
+  font-size: 17px;
   font-weight: 600;
   margin: 10px 0;
 }
@@ -404,12 +407,16 @@ footer {
   }
 
   .hero__title {
-      font-size: 3rem;
+      font-size: 2rem;
   }
 
-  .hero__subtitle,
+  .hero__subtitle{
+    font-size: 1.4rem;
+    padding: 5px;
+  }
   .hero__description {
-      font-size: 1.3rem;
+      font-size: 0.9rem;
+      padding: 7px;
   }
 
   .feature {
@@ -417,11 +424,11 @@ footer {
   }
 
   .feature__title {
-      font-size: 35px;
+      font-size: 17px;
   }
 
   .feature__sub__title {
-      font-size: 20px;
+      font-size: 17px;
   }
 
   .feature__2__poster__container {
@@ -509,6 +516,7 @@ footer {
 
   .primary__button {
       height: 50px;
+      margin-left: 7px;
   }
 
   .feature {
@@ -524,11 +532,12 @@ footer {
   }
 
   .feature__title {
-      font-size: 50px;
+      font-size: 38px;
+      font-weight: 850;
   }
 
   .feature__sub__title {
-      font-size: 25px;
+      font-size: 17px;
   }
 
   .feature__image__container {

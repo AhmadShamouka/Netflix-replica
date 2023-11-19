@@ -6,10 +6,10 @@ const SectionOne = () => {
   return (
     <div className="feature">
       <div className="feature__details">
-        <h3 className="feature__title">Enjoy on your TV.</h3>
+        <h3 className="feature__title">Enjoy on your TV</h3>
         <h5 className="feature__sub__title">
-          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-          Blu-ray players and more.
+          Watch on smart TVs, PlayStation, Xbox, Chromecast,
+           Apple TV, Blu-ray players and more.
         </h5>
       </div>
       <div className="feature__image__container">
