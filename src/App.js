@@ -7,6 +7,7 @@ import SectionTwo from './LandingComponents/SectionTwo';
 import SectionThree from './LandingComponents/SectionThree';
 import SectionFour from './LandingComponents/SectionFour';
 import FAQSection from './LandingComponents/FAQSection';
+import Footer from './LandingComponents/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <SectionThree/>
     <SectionFour/> 
     <FAQSection/>
+    <Footer/>
     </div>
   );
 }

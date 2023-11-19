@@ -34,6 +34,7 @@ const Footer = () => {
       </div>
       <div className="footer__row__3">
       <div className="dropdown__container">
+          <i className="fas fa-globe"></i>
           <select
             name="languages"
             id="languagesSelect"
