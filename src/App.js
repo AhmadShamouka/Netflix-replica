@@ -5,6 +5,7 @@ import Hero from './LandingComponents/Hero';
 import SectionOne from './LandingComponents/SectionOne';
 import SectionTwo from './LandingComponents/SectionTwo';
 import SectionThree from './LandingComponents/SectionThree';
+import SectionFour from './LandingComponents/SectionFour';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
     <SectionOne/>
     <SectionTwo/>
     <SectionThree/>
-    {/* <SectionFour/>  */}
+    <SectionFour/> 
     </div>
   );
 }
