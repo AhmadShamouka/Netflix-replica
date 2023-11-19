@@ -373,5 +373,14 @@ body {
     .feature__sub__title {
       font-size: 25px;
     }
+
+    
+    .feature__image__container {
+      max-width: 500px;
+    }
+  
+    .feature:nth-child(even) {
+      flex-direction: row-reverse;
+    }
   }
   
