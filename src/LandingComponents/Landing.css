@@ -475,5 +475,11 @@ body {
     .poster__container {
       width: 20%;
     }
+    .FAQ__list {
+      padding: 1rem 25rem;
+    }
+    .FAQ__get__started__email {
+      transform: translateX(16%);
+    }
   }
   
