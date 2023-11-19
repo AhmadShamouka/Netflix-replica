@@ -340,5 +340,17 @@ body {
       transform: translate(-50%, -50%);
     }
     
+    
+    .form__container {
+      width: 50%;
+    }
+    .email__form__container {
+      flex-direction: row;
+      align-items: center;
+      gap: 1px;
+    }
+    .primary__button {
+      height: 50px;
+    }
   }
   
