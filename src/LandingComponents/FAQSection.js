@@ -4,6 +4,22 @@ import './Landing.css'
 
 
 const FAQSection = () => {
+  useEffect(() => {
+    const accordions = document.querySelectorAll(".FAQ__title");
+
+      
+
+    accordions.forEach(accordion => {
+      accordion.addEventListener("click", handleAccordionClick);
+    });
+
+    // Cleanup function
+    return () => {
+      accordions.forEach(accordion => {
+        accordion.removeEventListener("click", handleAccordionClick);
+      });
+    };
+  }, []);
 
   return (
    
