@@ -33,10 +33,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__row__3">
-       
+      <div className="dropdown__container">
+          <select
+            name="languages"
+            id="languagesSelect"
+            className="language__drop__down"
+          >
+            <option value="english" selected>English</option>
+            <option value="Arabic">العربية</option>
+          </select>
+        </div>
       </div>
       <div className="footer__row__4">
-        <p>Netflix India</p>
+        <p>Netflix Lebanon</p>
       </div>
     </footer>
   );
