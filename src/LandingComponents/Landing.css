@@ -169,4 +169,49 @@ body {
     font-size: 15px;
     letter-spacing: 1px;
   }
+
+  /* Section One */
+  
+  .feature {
+    border-top: 8px solid #222;
+    padding: 2rem 1rem;
+  }
+  
+  .feature__details {
+    text-align: center;
+  }
+  
+  .feature__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .feature__sub__title {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .feature__image__container {
+    width: 100%;
+    position: relative;
+  }
+  .feature__image {
+    width: 100%;
+  }
+  
+  .feature__backgroud__video__container {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 13%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    z-index: -2;
+  }
+  
+  .feature__backgroud__video {
+    width: 100%;
+  }
   
