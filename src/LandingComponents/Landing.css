@@ -321,6 +321,16 @@ body {
   }
   
   
+  .FAQ__get__started__email {
+    text-align: center;
+  }
+  
+  .FAQ__get__started__email > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2rem 0;
+  }
+  
 
   @media (min-width: 768px) {
     .hero__bg__image__container {
