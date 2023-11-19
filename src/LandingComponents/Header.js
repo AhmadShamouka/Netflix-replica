@@ -18,7 +18,7 @@ const Header = () => {
           <div className="navbar__nav__items">
             <div className="nav__item">
               <div className="dropdown__container">
-                <i className="fas fa-language"></i>
+                <i className="fas fa-globe"></i>
                 <select
                   name="languages"
                   id="languagesSelect"

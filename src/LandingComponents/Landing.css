@@ -342,6 +342,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  width: 100%;
 }
 
 /* FAQ Get Started Email Styles */
@@ -358,7 +359,7 @@ body {
 /* Footer Styles */
 footer {
   border-top: 8px solid #333;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
   color: #757575;
   display: flex;
   flex-direction: column;
@@ -371,6 +372,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
+  width: 120%;
 }
 
 /* Footer Row 1 Styles */
@@ -454,7 +456,8 @@ footer {
   }
 
   .FAQ__title {
-      font-size: 20px;
+     
+  font-size: 20px;
   }
 
   .FAQ__heading {
@@ -465,6 +468,7 @@ footer {
 
   .FAQ__list {
       padding: 1rem 5rem;
+  width: 100%;
   }
 
   .FAQ__get__started__email {
@@ -532,12 +536,14 @@ footer {
   }
 
   .feature__title {
-      font-size: 38px;
+      font-size: 37px;
       font-weight: 850;
+      word-spacing: 7px;
   }
 
   .feature__sub__title {
-      font-size: 17px;
+      font-size: 15.5px;
+      word-spacing: 2px;
   }
 
   .feature__image__container {
@@ -559,7 +565,9 @@ footer {
   }
 
   .FAQ__list {
-      padding: 1rem 25rem;
+      padding: 1rem 11rem;
+      
+  width: 100%;
   }
 
   .FAQ__get__started__email {
