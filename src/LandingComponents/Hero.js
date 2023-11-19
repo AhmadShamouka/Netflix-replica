@@ -15,8 +15,7 @@ const Hero = () => {
 
       <div className="hero__card">
         <h1 className="hero__title">
-          Unlimited Movies TV,<br />
-          Shows and More.
+          Unlimited Movies TV, Shows and more
         </h1>
         <p className="hero__subtitle">Watch anywhere and cancel anytime.</p>
         <p className="hero__description">
