@@ -7,7 +7,23 @@ const FAQSection = () => {
   useEffect(() => {
     const accordions = document.querySelectorAll(".FAQ__title");
 
-      
+    const handleAccordionClick = function () {
+      const icon = this.querySelector('i');
+      if (icon.classList.contains("fa-plus")) {
+        icon.classList.remove("fa-plus");
+        icon.classList.add("fa-times");
+      } else {
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-plus");
+      }
+
+      const content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    };
 
     accordions.forEach(accordion => {
       accordion.addEventListener("click", handleAccordionClick);
