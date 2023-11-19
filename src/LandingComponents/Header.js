@@ -1,3 +1,7 @@
+
+import React from 'react';
+import './Landing.css'
+
 const Header = () => {
     return (
   
@@ -20,12 +24,13 @@ const Header = () => {
                   id="languagesSelect"
                   className="language__drop__down"
                 >
+                       <option value="english" selected style={{ color: 'black' }}>
+                    العربية
+                  </option>
                   <option value="english" selected style={{ color: 'black' }}>
                     English
                   </option>
-                  <option value="english" selected style={{ color: 'black' }}>
-                    العربية
-                  </option>
+               
                 </select>
               </div>
             </div>
