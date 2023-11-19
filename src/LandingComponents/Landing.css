@@ -322,4 +322,15 @@ body {
   }
 
   
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 2% 5%;
+    }
+  
+    .navbar__brand {
+      width: 150px;
+    }
+  
+    
+  }
   
