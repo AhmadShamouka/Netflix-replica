@@ -73,7 +73,7 @@ body {
     width: 450px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
-    padding: 30px 70px 143px 70px;
+    padding: 3%;
 }
 
 /* Styling for login form heading */
@@ -250,7 +250,7 @@ body {
   
 /* Media queries for responsive design */
 @media screen and (max-width: 740px) {
-    body {
+    .upper {
         background: black;
     }
 
@@ -265,17 +265,11 @@ body {
     .login-div {
         width: 90%;
         margin: 0 auto;
-        margin-top: 70%;
+        margin-top: 10%;
     }
 
     .bottom {
         border-top: 1px solid #737373;
-    }
-
-    .upper {
-        padding-bottom: 93px;
-        margin-top: 70px;
-      top: 50px;
     }
 
     .list-bottom {

@@ -17,7 +17,7 @@ const Header = () => {
   
           <div className="navbar__nav__items">
             <div className="nav__item">
-              <div className="dropdown__container">
+              <div className='item_select'>
                 <i className="fas fa-globe"></i>
                 <select
                   name="languages"
@@ -32,11 +32,11 @@ const Header = () => {
                   </option>
                
                 </select>
-              </div>
             </div>
+         </div>
   
             <div className="nav__item">
-              <button className="signin__button">Sign in</button>
+              <a className="signin__button">Sign in</a>
             </div>
           </div>
         </nav>

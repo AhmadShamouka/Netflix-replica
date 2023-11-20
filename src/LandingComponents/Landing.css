@@ -49,14 +49,6 @@ body {
   background-color: black;
 }
 
-/* Dropdown Container Styles */
-.dropdown__container {
-  border: 1px solid white;
-  padding: 0.4rem;
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.4);
-  width: 70;
-}
 
 /* Signin Button Styles */
 .signin__button {
@@ -65,14 +57,37 @@ body {
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
+  height: 100%;
+  display: flex;
 }
 
 /* Navbar Navigation Items Styles */
 .navbar__nav__items {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  top: 40px;
 }
 
+
+.nav__item {
+  height: 80%;
+  
+}
+
+.item_select{
+  border: 1px solid white;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  margin: 0 15px;
+  justify-content: center;
+  display: flex;
+  
+}
 /* Hero Section Styles */
 .hero__bg__image__container {
   width: 100%;
@@ -160,6 +175,9 @@ body {
   width: 90%;
   height: 50px;
   position: relative;
+  border-color: rgba(128,128,128,0.3);
+  background: rgba(22,22,22,0.3);
+  border: 1px solid;
 }
 
 .email__input:focus + .email__label {
@@ -365,25 +383,46 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: relative;
 }
 
-/* Footer Row 2 Styles */
-.footer__row__2 {
+.dropdown__container{
+   border: 1px solid white;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  width: 120%;
+  width: 6rem;
+  height: 2rem;
+  
+}
+/* Footer Row 2 Styles */
+.footer_main {
+            gap:20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
 }
 
+.footer_column{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:20px;
+}
 /* Footer Row 1 Styles */
 .footer__row__1 > h4 {
   font-size: 15px;
   font-weight: 500;
 }
 
+footer a{
+  text-decoration: underline;
+  color: rgba(255,255,255,0.7);
+  border-radius: 0.125rem;
+}
 /* Footer Row 3 Styles */
-.footer__row__3 > .dropdown__container {
+/* .footer__row__3 > .dropdown__container {
   width: fit-content;
   border: 1px solid #757575;
   color: #757575;
@@ -391,7 +430,7 @@ footer {
 
 .footer__row__3 > .dropdown__container > .language__drop__down {
   color: #757575;
-}
+} */
 
 /* Media Queries */
 @media (min-width: 768px) {
@@ -593,9 +632,4 @@ footer {
   .footer__row__4 {
       align-self: flex-start;
   }
-}
-
-/* Additional Media Queries if Needed */
-@media (min-width: 1254px) {
-  /* Add styles for larger screens if necessary */
 }
